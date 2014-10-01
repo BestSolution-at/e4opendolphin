@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_UKq-kEmGEeSY8eKq3hx1sw" elementId="org.eclipse.e4.application" bindingContexts="_UKpwcEmGEeSY8eKq3hx1sw">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_lB9PUEmHEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.trimmedwindow.0">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_lB9PUEmHEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.trimmedwindow.0" label="e4 with open dolphin">
     <children xsi:type="basic:PartSashContainer" xmi:id="_LC0IkEmOEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.partsashcontainer.0" horizontal="true">
       <children xsi:type="basic:PartStack" xmi:id="_JPd7oEmOEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.partstack.0">
-        <children xsi:type="basic:Part" xmi:id="_madTUEmHEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.part.0" contributionURI="bundleclass://at.bestsolution.free4dolphin.app/at.bestsolution.free4dolphin.app.MyDolphinView"/>
+        <children xsi:type="basic:Part" xmi:id="_madTUEmHEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.part.0" contributionURI="bundleclass://at.bestsolution.free4dolphin.app/at.bestsolution.free4dolphin.app.MyDolphinView" label="Instance 1"/>
       </children>
       <children xsi:type="basic:PartStack" xmi:id="_KRZ5wEmOEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.partstack.1">
-        <children xsi:type="basic:Part" xmi:id="_NfqlgEmOEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.part.1" contributionURI="bundleclass://at.bestsolution.free4dolphin.app/at.bestsolution.free4dolphin.app.MyDolphinView"/>
+        <children xsi:type="basic:Part" xmi:id="_NfqlgEmOEeSY8eKq3hx1sw" elementId="at.bestsolution.free4dolphin.app.part.1" contributionURI="bundleclass://at.bestsolution.free4dolphin.app/at.bestsolution.free4dolphin.app.MyDolphinView" label="Instance 2"/>
       </children>
     </children>
   </children>
