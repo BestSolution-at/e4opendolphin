@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="commons-codec-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="dolphin-client-0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="dolphin-shared-0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="gpars-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="groovy-all-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="httpclient-4.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="httpcore-4.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jsr166y-1.7.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

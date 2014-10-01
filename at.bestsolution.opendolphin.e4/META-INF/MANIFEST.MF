@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: E4
+Bundle-SymbolicName: at.bestsolution.opendolphin.e4
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.e4.core.contexts,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.e4.core.di;bundle-version="1.4.0",
+ org.opendolphin.core.client.javafx.osgi;bundle-version="1.0.0",
+ org.opendolphin.core.client.osgi;bundle-version="1.0.0"
+Service-Component: OSGI-INF/services/clientdolphin_cf.xml
+Bundle-ActivationPolicy: lazy
+Import-Package: javax.inject;version="1.0.0"
